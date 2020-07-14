@@ -19,7 +19,7 @@
   "scripts": {
     "docs": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "start": "netlify dev",
-    "build": "react-scripts build"
+    "build": "CI=react-scripts build"
   },
   "devDependencies": {
     "netlify-cli": "^2.19.0"
